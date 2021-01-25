@@ -28,9 +28,19 @@ These are the global settings for the MonitorClient API.
 title: MonitorClient
 description: Monitor Management Client
 openapi-type: arm
-tag: package-2019-06
+tag: package-2020-10
 ```
 
+
+### Tag: package-2020-10
+
+These settings apply only when `--tag=package-2020-10` is specified on the command line.
+
+```yaml $(tag) == 'package-2020-10'
+input-file:
+  - Microsoft.Insights/stable/2020-10-01/actionGroups_API.json
+  - Microsoft.Insights/stable/2020-10-01/activityLogAlerts_API.json
+```
 ### Tag: package-2020-05-preview
 
 These settings apply only when `--tag=package-2020-05-preview` is specified on the command line.
